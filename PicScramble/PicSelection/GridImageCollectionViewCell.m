@@ -66,13 +66,8 @@
 
 -(void)setImageForGrid:(UIImage *)url {
     gridImageView.image = url;
-//    [gridImageView sd_setImageWithURL:[NSURL URLWithString:url]
-//                       placeholderImage:kPlaceHolderImage
-//                                options:SDWebImageHighPriority];
-
 }
 -(void)resetImageForGrid {
-    //[gridImageView sd_setImageWithURL:[NSURL new] placeholderImage:nil];
     gridImageView.image = [UIImage imageNamed:@"flipOffState"];
 }
 @end
