@@ -1,0 +1,17 @@
+PODS:
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - SHXMLParser (1.1.0)
+
+DEPENDENCIES:
+  - SDWebImage (~> 3.7)
+  - SHXMLParser
+
+SPEC CHECKSUMS:
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  SHXMLParser: 3e5ada336541b3e5b8d66046a14c2bf49742c62e
+
+PODFILE CHECKSUM: 942e71c1321bc2ebbe54349f15deb6f6e1678edb
+
+COCOAPODS: 1.0.0

@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  PicScramble
+//
+//  Created by Mohit Jethwa on 16/06/16.
+//  Copyright (c) 2016 Mohit Jethwa. All rights reserved.
+//
+
+#ifndef PicScramble_PrefixHeader_pch
+#define PicScramble_PrefixHeader_pch
+
+#ifdef DEBUG
+#   define  Dlog(fmt, ...) NSLog((@"%s [Line \n %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+#else
+#   define  Dlog(...)
+#endif
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "Constant.h"
+#import <UIKit/UIKit.h>
+#import "CommonMethods.h"
+#import <SDWebImage/UIImageView+WebCache.h>
+#import "GridImageDownloader.h"
+#endif
+
+

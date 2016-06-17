@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57EC106FFF518A7BAEE8219B /* Pods_PicScramble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B2750453A5DB4D185B2990 /* Pods_PicScramble.framework */; };
+		B13677361D1242A200F2B794 /* GridImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B13677351D1242A200F2B794 /* GridImage.m */; };
+		B136773C1D12784600F2B794 /* NetworkClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B136773B1D12784600F2B794 /* NetworkClass.m */; };
+		B136773F1D1284BE00F2B794 /* CommonMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = B136773E1D1284BE00F2B794 /* CommonMethods.m */; };
+		B13677421D12DE8200F2B794 /* GridImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = B13677411D12DE8200F2B794 /* GridImageDownloader.m */; };
+		B1674D0E1D11078500C5CA8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1674D0D1D11078500C5CA8B /* main.m */; };
+		B1674D191D11078500C5CA8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1674D181D11078500C5CA8B /* Assets.xcassets */; };
+		B1674D271D11078500C5CA8B /* PicScrambleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1674D261D11078500C5CA8B /* PicScrambleTests.m */; };
+		B1674D321D11078500C5CA8B /* PicScrambleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1674D311D11078500C5CA8B /* PicScrambleUITests.m */; };
+		B1674D481D110CA100C5CA8B /* GridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1674D461D110CA100C5CA8B /* GridViewController.m */; };
+		B1674D491D110CA100C5CA8B /* GridViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1674D471D110CA100C5CA8B /* GridViewController.xib */; };
+		B1674D4E1D110FD400C5CA8B /* GridImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1674D4C1D110FD400C5CA8B /* GridImageCollectionViewCell.m */; };
+		B1674D4F1D110FD400C5CA8B /* GridImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1674D4D1D110FD400C5CA8B /* GridImageCollectionViewCell.xib */; };
+		B1674D5B1D119EF100C5CA8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1674D5A1D119EF100C5CA8B /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1674D231D11078500C5CA8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1674D011D11078300C5CA8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1674D081D11078300C5CA8B;
+			remoteInfo = PicScramble;
+		};
+		B1674D2E1D11078500C5CA8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1674D011D11078300C5CA8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1674D081D11078300C5CA8B;
+			remoteInfo = PicScramble;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B13677341D1242A200F2B794 /* GridImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridImage.h; sourceTree = "<group>"; };
+		B13677351D1242A200F2B794 /* GridImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridImage.m; sourceTree = "<group>"; };
+		B13677391D12437500F2B794 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B136773A1D12784600F2B794 /* NetworkClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkClass.h; sourceTree = "<group>"; };
+		B136773B1D12784600F2B794 /* NetworkClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkClass.m; sourceTree = "<group>"; };
+		B136773D1D1284BE00F2B794 /* CommonMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMethods.h; sourceTree = "<group>"; };
+		B136773E1D1284BE00F2B794 /* CommonMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMethods.m; sourceTree = "<group>"; };
+		B13677401D12DE8200F2B794 /* GridImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridImageDownloader.h; sourceTree = "<group>"; };
+		B13677411D12DE8200F2B794 /* GridImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridImageDownloader.m; sourceTree = "<group>"; };
+		B1674D091D11078300C5CA8B /* PicScramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicScramble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1674D0D1D11078500C5CA8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1674D181D11078500C5CA8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1674D1D1D11078500C5CA8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1674D221D11078500C5CA8B /* PicScrambleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicScrambleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1674D261D11078500C5CA8B /* PicScrambleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PicScrambleTests.m; sourceTree = "<group>"; };
+		B1674D281D11078500C5CA8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1674D2D1D11078500C5CA8B /* PicScrambleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicScrambleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1674D311D11078500C5CA8B /* PicScrambleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PicScrambleUITests.m; sourceTree = "<group>"; };
+		B1674D331D11078500C5CA8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1674D451D110CA100C5CA8B /* GridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridViewController.h; sourceTree = "<group>"; };
+		B1674D461D110CA100C5CA8B /* GridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridViewController.m; sourceTree = "<group>"; };
+		B1674D471D110CA100C5CA8B /* GridViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GridViewController.xib; sourceTree = "<group>"; };
+		B1674D4B1D110FD400C5CA8B /* GridImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridImageCollectionViewCell.h; sourceTree = "<group>"; };
+		B1674D4C1D110FD400C5CA8B /* GridImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridImageCollectionViewCell.m; sourceTree = "<group>"; };
+		B1674D4D1D110FD400C5CA8B /* GridImageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GridImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		B1674D591D119EF100C5CA8B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B1674D5A1D119EF100C5CA8B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B1674D5F1D119F5A00C5CA8B /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		BE432595BC5A55DD2EB1FAE8 /* Pods-PicScramble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicScramble.release.xcconfig"; path = "Pods/Target Support Files/Pods-PicScramble/Pods-PicScramble.release.xcconfig"; sourceTree = "<group>"; };
+		D5B2750453A5DB4D185B2990 /* Pods_PicScramble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PicScramble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC132DF5F5BE22B3B3B205F /* libPods-PicScrambleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PicScrambleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA972EAB133F0BFADCC41FC6 /* Pods-PicScramble.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicScramble.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PicScramble/Pods-PicScramble.debug.xcconfig"; sourceTree = "<group>"; };
+		FF313483737FE64278BFBF2A /* libPods-PicScrambleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PicScrambleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1674D061D11078300C5CA8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57EC106FFF518A7BAEE8219B /* Pods_PicScramble.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1674D1F1D11078500C5CA8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1674D2A1D11078500C5CA8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		650D02E8AC3749CA9507289B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA972EAB133F0BFADCC41FC6 /* Pods-PicScramble.debug.xcconfig */,
+				BE432595BC5A55DD2EB1FAE8 /* Pods-PicScramble.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B13677331D12428600F2B794 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B13677341D1242A200F2B794 /* GridImage.h */,
+				B13677351D1242A200F2B794 /* GridImage.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B1674D001D11078300C5CA8B = {
+			isa = PBXGroup;
+			children = (
+				B1674D0B1D11078500C5CA8B /* PicScramble */,
+				B1674D251D11078500C5CA8B /* PicScrambleTests */,
+				B1674D301D11078500C5CA8B /* PicScrambleUITests */,
+				B1674D0A1D11078300C5CA8B /* Products */,
+				650D02E8AC3749CA9507289B /* Pods */,
+				CE2EA30DBC45D182A44FFA81 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B1674D0A1D11078300C5CA8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1674D091D11078300C5CA8B /* PicScramble.app */,
+				B1674D221D11078500C5CA8B /* PicScrambleTests.xctest */,
+				B1674D2D1D11078500C5CA8B /* PicScrambleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1674D0B1D11078500C5CA8B /* PicScramble */ = {
+			isa = PBXGroup;
+			children = (
+				B1674D5C1D119F2000C5CA8B /* CommonClass */,
+				B1674D581D119EF100C5CA8B /* Appdelegate */,
+				B1674D441D110C9500C5CA8B /* PicSelection */,
+				B1674D181D11078500C5CA8B /* Assets.xcassets */,
+				B1674D1D1D11078500C5CA8B /* Info.plist */,
+				B1674D0C1D11078500C5CA8B /* Supporting Files */,
+			);
+			path = PicScramble;
+			sourceTree = "<group>";
+		};
+		B1674D0C1D11078500C5CA8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B13677391D12437500F2B794 /* PrefixHeader.pch */,
+				B1674D0D1D11078500C5CA8B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1674D251D11078500C5CA8B /* PicScrambleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1674D261D11078500C5CA8B /* PicScrambleTests.m */,
+				B1674D281D11078500C5CA8B /* Info.plist */,
+			);
+			path = PicScrambleTests;
+			sourceTree = "<group>";
+		};
+		B1674D301D11078500C5CA8B /* PicScrambleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B1674D311D11078500C5CA8B /* PicScrambleUITests.m */,
+				B1674D331D11078500C5CA8B /* Info.plist */,
+			);
+			path = PicScrambleUITests;
+			sourceTree = "<group>";
+		};
+		B1674D441D110C9500C5CA8B /* PicSelection */ = {
+			isa = PBXGroup;
+			children = (
+				B13677331D12428600F2B794 /* Model */,
+				B1674D4A1D110FA600C5CA8B /* Helper */,
+				B1674D451D110CA100C5CA8B /* GridViewController.h */,
+				B1674D461D110CA100C5CA8B /* GridViewController.m */,
+				B1674D471D110CA100C5CA8B /* GridViewController.xib */,
+			);
+			path = PicSelection;
+			sourceTree = "<group>";
+		};
+		B1674D4A1D110FA600C5CA8B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				B1674D4B1D110FD400C5CA8B /* GridImageCollectionViewCell.h */,
+				B1674D4C1D110FD400C5CA8B /* GridImageCollectionViewCell.m */,
+				B1674D4D1D110FD400C5CA8B /* GridImageCollectionViewCell.xib */,
+				B13677401D12DE8200F2B794 /* GridImageDownloader.h */,
+				B13677411D12DE8200F2B794 /* GridImageDownloader.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		B1674D581D119EF100C5CA8B /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B1674D591D119EF100C5CA8B /* AppDelegate.h */,
+				B1674D5A1D119EF100C5CA8B /* AppDelegate.m */,
+			);
+			path = Appdelegate;
+			sourceTree = "<group>";
+		};
+		B1674D5C1D119F2000C5CA8B /* CommonClass */ = {
+			isa = PBXGroup;
+			children = (
+				B1674D5F1D119F5A00C5CA8B /* Constant.h */,
+				B136773A1D12784600F2B794 /* NetworkClass.h */,
+				B136773B1D12784600F2B794 /* NetworkClass.m */,
+				B136773D1D1284BE00F2B794 /* CommonMethods.h */,
+				B136773E1D1284BE00F2B794 /* CommonMethods.m */,
+			);
+			path = CommonClass;
+			sourceTree = "<group>";
+		};
+		CE2EA30DBC45D182A44FFA81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDC132DF5F5BE22B3B3B205F /* libPods-PicScrambleTests.a */,
+				FF313483737FE64278BFBF2A /* libPods-PicScrambleUITests.a */,
+				D5B2750453A5DB4D185B2990 /* Pods_PicScramble.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1674D081D11078300C5CA8B /* PicScramble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1674D361D11078500C5CA8B /* Build configuration list for PBXNativeTarget "PicScramble" */;
+			buildPhases = (
+				6F5B41AF982BCBE010AA0ADF /* 📦 Check Pods Manifest.lock */,
+				B1674D051D11078300C5CA8B /* Sources */,
+				B1674D061D11078300C5CA8B /* Frameworks */,
+				B1674D071D11078300C5CA8B /* Resources */,
+				05A41B7CBB32547E548C6322 /* 📦 Embed Pods Frameworks */,
+				8A8982F10D63317B39D184E7 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PicScramble;
+			productName = PicScramble;
+			productReference = B1674D091D11078300C5CA8B /* PicScramble.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1674D211D11078500C5CA8B /* PicScrambleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1674D391D11078500C5CA8B /* Build configuration list for PBXNativeTarget "PicScrambleTests" */;
+			buildPhases = (
+				B1674D1E1D11078500C5CA8B /* Sources */,
+				B1674D1F1D11078500C5CA8B /* Frameworks */,
+				B1674D201D11078500C5CA8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1674D241D11078500C5CA8B /* PBXTargetDependency */,
+			);
+			name = PicScrambleTests;
+			productName = PicScrambleTests;
+			productReference = B1674D221D11078500C5CA8B /* PicScrambleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B1674D2C1D11078500C5CA8B /* PicScrambleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1674D3C1D11078500C5CA8B /* Build configuration list for PBXNativeTarget "PicScrambleUITests" */;
+			buildPhases = (
+				B1674D291D11078500C5CA8B /* Sources */,
+				B1674D2A1D11078500C5CA8B /* Frameworks */,
+				B1674D2B1D11078500C5CA8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1674D2F1D11078500C5CA8B /* PBXTargetDependency */,
+			);
+			name = PicScrambleUITests;
+			productName = PicScrambleUITests;
+			productReference = B1674D2D1D11078500C5CA8B /* PicScrambleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1674D011D11078300C5CA8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mohit Jethwa";
+				TargetAttributes = {
+					B1674D081D11078300C5CA8B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B1674D211D11078500C5CA8B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B1674D081D11078300C5CA8B;
+					};
+					B1674D2C1D11078500C5CA8B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B1674D081D11078300C5CA8B;
+					};
+				};
+			};
+			buildConfigurationList = B1674D041D11078300C5CA8B /* Build configuration list for PBXProject "PicScramble" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1674D001D11078300C5CA8B;
+			productRefGroup = B1674D0A1D11078300C5CA8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1674D081D11078300C5CA8B /* PicScramble */,
+				B1674D211D11078500C5CA8B /* PicScrambleTests */,
+				B1674D2C1D11078500C5CA8B /* PicScrambleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1674D071D11078300C5CA8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1674D491D110CA100C5CA8B /* GridViewController.xib in Resources */,
+				B1674D191D11078500C5CA8B /* Assets.xcassets in Resources */,
+				B1674D4F1D110FD400C5CA8B /* GridImageCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1674D201D11078500C5CA8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1674D2B1D11078500C5CA8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05A41B7CBB32547E548C6322 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PicScramble/Pods-PicScramble-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F5B41AF982BCBE010AA0ADF /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8A8982F10D63317B39D184E7 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PicScramble/Pods-PicScramble-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1674D051D11078300C5CA8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B13677421D12DE8200F2B794 /* GridImageDownloader.m in Sources */,
+				B1674D5B1D119EF100C5CA8B /* AppDelegate.m in Sources */,
+				B136773F1D1284BE00F2B794 /* CommonMethods.m in Sources */,
+				B1674D4E1D110FD400C5CA8B /* GridImageCollectionViewCell.m in Sources */,
+				B1674D481D110CA100C5CA8B /* GridViewController.m in Sources */,
+				B136773C1D12784600F2B794 /* NetworkClass.m in Sources */,
+				B1674D0E1D11078500C5CA8B /* main.m in Sources */,
+				B13677361D1242A200F2B794 /* GridImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1674D1E1D11078500C5CA8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1674D271D11078500C5CA8B /* PicScrambleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1674D291D11078500C5CA8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1674D321D11078500C5CA8B /* PicScrambleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1674D241D11078500C5CA8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1674D081D11078300C5CA8B /* PicScramble */;
+			targetProxy = B1674D231D11078500C5CA8B /* PBXContainerItemProxy */;
+		};
+		B1674D2F1D11078500C5CA8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1674D081D11078300C5CA8B /* PicScramble */;
+			targetProxy = B1674D2E1D11078500C5CA8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B1674D341D11078500C5CA8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1674D351D11078500C5CA8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1674D371D11078500C5CA8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA972EAB133F0BFADCC41FC6 /* Pods-PicScramble.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = PicScramble/PrefixHeader.pch;
+				INFOPLIST_FILE = PicScramble/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.PicScramble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1674D381D11078500C5CA8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE432595BC5A55DD2EB1FAE8 /* Pods-PicScramble.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = PicScramble/PrefixHeader.pch;
+				INFOPLIST_FILE = PicScramble/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.PicScramble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B1674D3A1D11078500C5CA8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PicScrambleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.PicScrambleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicScramble.app/PicScramble";
+			};
+			name = Debug;
+		};
+		B1674D3B1D11078500C5CA8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PicScrambleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.PicScrambleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicScramble.app/PicScramble";
+			};
+			name = Release;
+		};
+		B1674D3D1D11078500C5CA8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PicScrambleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.PicScrambleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PicScramble;
+			};
+			name = Debug;
+		};
+		B1674D3E1D11078500C5CA8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PicScrambleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.PicScrambleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PicScramble;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1674D041D11078300C5CA8B /* Build configuration list for PBXProject "PicScramble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1674D341D11078500C5CA8B /* Debug */,
+				B1674D351D11078500C5CA8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1674D361D11078500C5CA8B /* Build configuration list for PBXNativeTarget "PicScramble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1674D371D11078500C5CA8B /* Debug */,
+				B1674D381D11078500C5CA8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1674D391D11078500C5CA8B /* Build configuration list for PBXNativeTarget "PicScrambleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1674D3A1D11078500C5CA8B /* Debug */,
+				B1674D3B1D11078500C5CA8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1674D3C1D11078500C5CA8B /* Build configuration list for PBXNativeTarget "PicScrambleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1674D3D1D11078500C5CA8B /* Debug */,
+				B1674D3E1D11078500C5CA8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1674D011D11078300C5CA8B /* Project object */;
+}
