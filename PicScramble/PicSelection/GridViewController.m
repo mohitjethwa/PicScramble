@@ -77,7 +77,7 @@
 // Request Method For Flicker Public API
 -(void)getGridImageDataFromFlickerServer {
     activityIndicator.hidden = false;
-    SDWebImageManager.sharedManager.imageDownloader.maxConcurrentDownloads = 1;
+    SDWebImageManager.sharedManager.imageDownloader.maxConcurrentDownloads = kGameImageCount;
     gridCollectionImageData = [[NSMutableArray alloc] init];
 
     [GridImageDownloader getGameImageDataFromFlicker:^(NSArray *responseObject, NSError *error, bool status) {
